@@ -1,0 +1,51 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Logs / outputs =====
+logs/
+output/
+outputs/
+runs/
+checkpoints/
+wandb/
+tb/
+tensorboard/
+*.log
+
+# ===== Data / cache =====
+data/
+dataset/
+datasets/
+cache/
+tmp/
+*.csv
+*.tsv
+*.jsonl
+
+# ===== Large artifacts =====
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.zip
+
+# ===== Images / videos (optional, keep if needed) =====
+# *.png
+# *.jpg
+# *.mp4
